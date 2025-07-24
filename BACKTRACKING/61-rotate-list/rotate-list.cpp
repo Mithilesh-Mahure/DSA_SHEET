@@ -23,7 +23,7 @@ public:
         temp->next=head;
         
         int end=size-k;
-        temp->next=head;
+
         ListNode* new_end=head;
         
         for(int i=1;i<end;i++){
