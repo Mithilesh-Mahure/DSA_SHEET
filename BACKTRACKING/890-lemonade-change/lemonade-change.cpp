@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool lemonadeChange(vector<int>& nums) {
-        int change = 0;
+
         int five = 0, ten = 0, twenty = 0;
         for (int i = 0; i < nums.size(); i++) {
             if (nums[i] == 5)
